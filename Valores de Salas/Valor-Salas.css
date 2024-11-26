@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-.plans{
-  background-image: url(/img/sala1.png);
-  background-size: cover;
-  height: 100px; /* Ajuste a altura conforme necessário */
-  display: flex;
-  align-items: center; /* Centraliza o texto verticalmente */
-  justify-content: flex-start; /* Centraliza o texto horizontalmente */
-  text-align: start; /* Centraliza o texto */
-  color: white;
-  padding: 20px;
-}
-
 .img-fundo{
   font-family:"Playfair Display" ;
   font-size: 20px;

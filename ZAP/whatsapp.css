@@ -1,0 +1,21 @@
+/* Estiliza o botão do WhatsApp */
+.whatsapp-chat {
+	position: fixed;                 /* Fixa o botão na posição da tela */
+	bottom: 16px;                    /* Distância do botão em relação ao fundo */
+	right: 120px;                     /* Distância do botão em relação à direita */
+	width: 50px;                     /* Largura do ícone */
+	height: 50px;                    /* Altura do ícone */
+	z-index: 1000;                   /* Garante que o botão fique em cima de outros elementos */
+}
+
+.whatsapp-chat img {
+	width: 100%;                     /* Faz com que a imagem ocupe o tamanho do botão */
+	height: 100%;
+	border-radius: 50%;              /* Deixa o ícone redondo */
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+	transition: transform 0.2s;      /* Animação para o hover */
+}
+
+.whatsapp-chat img:hover {
+	transform: scale(1.1);           /* Aumenta o tamanho da imagem ao passar o mouse */
+}

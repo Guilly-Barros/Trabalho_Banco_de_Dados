@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/BARRA DE NAVEGAÇÃO/navbar.css">
+    <link rel="stylesheet" href="/Cadastre-se/CADASTRO.CSS">
   </head>
   <body>
     <header>
@@ -19,5 +20,101 @@
       </nav>
       <a href="#"><button>Contato</button></a>
     </header>
+
+    <body>
+      <!-- Logo do Site -->
+      <header class="menu">
+        <div class="logo">
+          <img src="logotrabalho.png" alt="Logo" class="logo">
+        </div>
+        <!-- List Bar -->
+        <nav class="menu-lateral">
+          <div class="btn-expandir">
+            <i class="bi bi-list" id="btn-exp"></i>
+          </div>
+    
+    
+          <!-- Icones e Texto da List Bar -->
+          <ul>
+            <li class="item-menu ativo">
+              <a href="1-Inicio.html">
+                <span class="icon"><i class="bi bi-house-door-fill"></i></span>
+                <span class="txt-link">Inicío</span>
+              </a>
+            </li>
+            <li class="item-menu">
+              <a href="2-Veiculos.html">
+                <span class="icon"><i class="bi bi-car-front-fill"></i></span>
+                <span class="txt-link">Veículos</span>
+              </a>
+            </li>
+            <li class="item-menu">
+              <a href="3-Contato.html">
+                <span class="icon"><i class="bi bi-chat-dots-fill"></i></span>
+                <span class="txt-link">Contato</span>
+              </a>
+            </li>
+            <li class="item-menu">
+              <a href="6-Login.html">
+                <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span>
+                <span class="txt-link">Login</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+    
+        <!-- Login - SignUp -->
+        <div class="container" id="container">
+          <div class="form-container sign-up">
+            <form>
+              <h1>Create Account</h1>
+              <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+              <span>or use your email for registeration</span>
+              <input type="text" placeholder="Name">
+              <input type="email" placeholder="Email">
+              <input type="password" placeholder="Password">
+              <button>Sign Up</button>
+            </form>
+          </div>
+          <div class="form-container sign-in">
+            <form>
+              <h1>Sign In</h1>
+              <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+              <span>or use your email password</span>
+              <input type="email" placeholder="Email">
+              <input type="password" placeholder="Password">
+              <a href="#">Forget Your Password?</a>
+              <button>Sign In</button>
+            </form>
+          </div>
+          <div class="toggle-container">
+            <div class="toggle">
+              <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>Enter your personal details to use all of site features</p>
+                <button class="hidden" id="login">Sign In</button>
+              </div>
+              <div class="toggle-panel toggle-right">
+                <h1>Hello, Friend!</h1>
+                <p>Register with your personal details to use all of site features</p>
+                <button class="hidden" id="register">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <script src="6-Login.js"></script>
+        <script src="navbar.js"></script>
+    </body>
   </body>
 </html>
